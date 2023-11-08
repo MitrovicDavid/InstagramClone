@@ -20,9 +20,143 @@
         <link rel="stylesheet" href="Css/Story.css">
         <link rel="stylesheet" href="Css/Main.css">
 
+        <style>
+            /*temp style location*/
+            .flexbox-container{
+                display: flex;
+                flex-direction: row;
+            }
+            .navigation{
+                display: flex;
+                flex-direction: column;
+                background-color: lightblue;
+                width: 340px;
+                height: 600px;
+                justify-content: space-between;
+            }
+            .navigation-logo{
+                height: 50px;
+            }
+            .navigation-main{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex: 1;
+            }
+            .navigation-main-header{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            .navigation-main-header-home, .navigation-main-header-search, .navigation-main-header-explore, .navigation-main-header-reels, .navigation-main-header-messages, .navigation-main-header-notifications, .navigation-main-header-create, .navigation-main-header-profile{
+                display: flex;
+                align-items: center;
+            }
+            .navigation-main-footer{
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+            }
+            .navigation-main-footer-threads, .navigation-main-footer-more{
+                display: flex;
+                align-items: center;
+            }
+
+            .main{
+                background-color: lightpink;
+                flex: 1;
+            }
+
+            .sidebar{
+                background-color: lightblue;
+                width: 300px;
+            }
+
+            .icon{
+                width: 50px;
+                height: 50px;
+                display: inline;
+            }
+            .navigation-main-footer-more-paragraph, .navigation-main-footer-threads-paragraph{
+                margin: 0px;
+                flex: 1;
+            }
+        </style>
+
     </head>
 
     <body>
+        <div class="flexbox-container">
+            <div class="navigation">
+                <div class="navigation-logo"> <!--[Logo] Very top of the left hand side navigation division in the html body-->
+                    logo
+                </div>
+
+                <div class="navigation-main"> <!--Top part of the left side navigation's html-->
+                    <div class="navigation-main-header">
+
+                        <div class="navigation-main-header-home">
+                            <img class="icon" src="Icons/home.png" alt="">
+                            <p>Home</p>
+                        </div>
+
+                        <div class="navigation-main-header-search">
+                            <img class="icon" src="Icons/search.png" alt="">     
+                            <p>Search</p>                       
+                        </div>
+
+                        <div class="navigation-main-header-explore">
+                            <img class="icon" src="Icons/compass.png" alt="">
+                            <p>Explore</p>
+                        </div>
+
+                        <div class="navigation-main-header-reels">
+                            <img class="icon" src="Icons/send.png" alt="">              <!--placeholder icon-->              
+                            <p>Reels</p>
+                        </div>
+
+                        <div class="navigation-main-header-messages">
+                            <img class="icon" src="Icons/send.png" alt="">              <!--placeholder icon-->
+                            <p>Messages</p>                            
+                        </div>
+
+                        <div class="navigation-main-header-notifications">
+                            <img class="icon" src="Icons/like.png" alt="">                
+                            <p>Notifications</p>            
+                        </div>
+
+                        <div class="navigation-main-header-create">
+                            <img class="icon" src="Icons/add.png" alt="">
+                            <p>Create</p>
+                        </div>
+
+                        <div class="navigation-main-header-profile">
+                            <img class="icon" src="" alt="">                            <!--Profile picture needed-->            
+                        </div>
+                    </div>
+
+                    <div class="navigation-main-footer">  <!--Bottom part of the left side navigation's html-->
+                        <div class="navigation-main-footer-threads">
+                            <img class="icon" src="Icons/send.png" alt="threads.icon">       <!--Placeholder icon-->
+                            <p class="navigation-main-footer-threads-paragraph">Threads</p>
+                        </div>         
+
+                        <div class="navigation-main-footer-more">
+                            <img class="icon" src="Icons/send.png" alt="more.icon">          <!--Placeholder icon-->
+                            <p class="navigation-main-footer-more-paragraph">More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+
+
+
+            <div class="main">main</div>    
+
+            
+
+            <div class="sidebar">sidebar</div>
+        </div>
 
         <!--Main div-->
 
