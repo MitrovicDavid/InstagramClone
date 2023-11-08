@@ -1,0 +1,37 @@
+.navigationLogo {
+    height: 50px;
+}
+.navigationMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.navigationMainHeader {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.navigationMainHeaderHome, .navigationMainHeaderSearch, .navigationMainHeaderExplore, .navigationMainHeaderReels, .navigationMainHeaderMessages, .navigationMainHeaderNotifications, .navigationMainHeaderCreate, .navigationMainHeaderProfile {
+    display: flex;
+    align-items: center;
+}
+.navigationMainFooter {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+.navigationMainFooterThreads, .navigationMainFooterMore {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.navigationMainFooterMoreParagraph, .navigationMainFooterThreadsParagraph {
+    margin: 0px;
+    flex: 1;
+}

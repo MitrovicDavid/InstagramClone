@@ -3,3 +3,23 @@ body {
     font-family: "Montserrat";
 
 }
+.flexboxContainer {
+    display: flex;
+    flex-direction: row;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 340px;
+    height: 600px;
+    justify-content: space-between;
+}
+.main {
+    background-color: lightpink;
+    flex: 1;
+}
+.profile {
+    background-color: lightblue;
+    width: 300px;
+}
